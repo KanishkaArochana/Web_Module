@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML-Table</title>
+</head>
+<body>
+
+    <!-- Question 01 -->
+
+    <table border="2px">
+        <tr>
+            <th>First Name</th>
+            <th>Last Name</th>
+            <th>Age</th>
+        </tr>
+
+        <tr>
+            <td>Amal</td>
+            <td>Fernando</td>
+            <td>39</td>
+        </tr>
+
+        <tr>
+            <td>Sahan</td>
+            <td>Bandara</td>
+            <td>33</td>
+        </tr>
+
+        <tr>
+            <td>Kamal</td>
+            <td>Perera</td>
+            <td>36</td>
+        </tr>
+
+        <tr>
+            <td>Nimal</td>
+            <td>Rathnayake</td>
+            <td>36</td>
+        </tr>
+    </table>
+    <br> <br> <br>
+
+    <!-- Qustion 02 -->
+
+    <table border="2px">
+        <tr>
+            <td>America</td>
+            <td>Canada</td>
+            <td>Alaska</td>
+        </tr>
+
+        <tr>
+            <td colspan="2" class="mexico">Mexico</td>
+            <td rowspan="2">Jamaica</td>
+        </tr>
+
+        <tr>
+            <td class="california">California</td>
+            <td class="Brazil">Brazil</td>
+        </tr>
+    </table>
+    
+
+    <style>
+        .mexico{
+            color: red;
+            text-align: center;
+        }
+
+        .california{
+            color: blue;
+        }
+
+        .Brazil{
+            color: green;
+        }
+
+        td{
+            font-weight: bold;
+        }
+    </style>
+   
+   <br> <br> <br>
+    <!-- Qustion 03 -->
+    <div class="box1">
+        <h1>Time Table</h1>
+        <center>
+            <table border="2px">
+            <tr>
+                <th>Monday</th>
+                <th>Tuesday</th>
+                <th>Wednesday</th>
+                <th>Thursday</th>
+                <th>Friday</th>
+            </tr>
+
+            <tr>
+                <td rowspan="2">Maths</td>
+                <td>Geography</td>
+                <td rowspan="3">Literature</td>
+                <td>Maths</td>
+                <td>Drama</td>
+            </tr>
+
+            <tr>
+                <td>IT</td>
+                <td>English</td>
+                <td>Dancing</td>
+            </tr>
+
+            <tr>
+                <td>Sinhala</td>
+                <td rowspan="2">Health</td>
+                <td rowspan="2">Music</td>
+                <td rowspan="2">Religion</td> 
+            </tr>
+
+            <tr>
+                <td>English</td>
+                <td>IT Lab</td>
+            </tr>
+
+            <tr>
+                <td colspan="5" class="box2" >Interval</td>
+            </tr>
+
+            <tr>
+                <td>Religion</td>
+                <td>Maths</td>
+                <td>Health</td>
+                <td>Tamil</td>
+                <td>IT</td>
+            </tr>
+
+            <tr>
+                <td rowspan="2">History</td>
+                <td rowspan="3">Drama</td>
+                <td rowspan="2">Library</td>
+                <td>IT Lab</td>
+                <td>Tamil</td>
+            </tr>
+            
+            <tr>
+                <td>Sinhala</td>
+                <td rowspan="2">Art</td>
+            </tr>
+
+            <tr>
+                <td>Maths</td>
+                <td>Maths</td>
+                <td>Science</td>
+            </tr>
+
+            <tr>
+                <td colspan="5" class="box3">For more details:</td>
+            </tr>
+        </table>
+        </center>
+</div>
+
+<style>
+    .box1{
+        background-color: antiquewhite;
+    }
+
+    .box2{
+        background-color: blue;
+        color: red;
+        text-align: center;
+    }
+
+    .box3{
+        background-color: greenyellow;
+        text-align: center;
+    }
+    h1{
+        color: white;
+        font-size: 20px;
+        text-decoration: underline;
+        text-align: center;
+    }
+
+    td{
+        background-color: yellow;
+    }
+
+    th{
+        background-color: white;
+    }
+
+
+</style>
+
+
+</body>
+</html>

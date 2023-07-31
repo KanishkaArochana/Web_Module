@@ -1,0 +1,27 @@
+body{
+    background-image: url("download.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+h1{
+    color: white;
+    font-weight: bold;
+    /* align-items: center; */
+    text-align: center;
+    
+}
+.box1{
+    background-color: orange;
+    width: 450px;
+}
+.sub-btn{
+    background-color: greenyellow;
+    color: white;
+}
+.re-btn{
+    background-color: red;
+    color: white;
+}
+.box2{
+    background-color: orange;
+}
